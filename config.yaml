@@ -1,0 +1,18 @@
+# Edit this file directly on GitHub (pencil icon) to change what the screenshot shows.
+
+sheet_id: "PASTE_YOUR_SHEET_ID_HERE"   # from URL: docs.google.com/spreadsheets/d/<SHEET_ID>/edit
+worksheet: "Sheet1"                    # tab name
+
+# Only rows matching ALL of these are kept. Remove the section for no filtering.
+filters:
+  Status: "Pending"
+  # Region: "South"
+
+# Columns to show, in order. Remove the section to show all columns.
+columns:
+  - Name
+  - Status
+  - Amount
+
+title: "Daily Report"
+output: "output/latest.png"
